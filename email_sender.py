@@ -14,8 +14,8 @@ body = "the beast again rise up"
 
 msg.attach(MIMEText(body,'plain'))
 
-email = "dm12042000@gmail.com"
-password = "DEepak12@#"
+email = "YOUR EMAIL"
+password = "YOUR PASSWORD"
 mail = smtplib.SMTP('smtp.gmail.com',587)
 mail.ehlo()
 mail.starttls()
